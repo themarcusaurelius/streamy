@@ -33,7 +33,7 @@ class StreamCreate extends React.Component {
         );
     }
 
-    onSubmit = (formValues) => {
+    onSubmit = formValues => {
         //Without Redux
         //event.preventDefault();  
         this.props.createStream(formValues);

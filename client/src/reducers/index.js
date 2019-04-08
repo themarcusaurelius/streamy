@@ -6,4 +6,4 @@ export default combineReducers({
     //replaceMe: () => 'TEST'
     auth: authReducer,
     form: formReducer
-})
+});

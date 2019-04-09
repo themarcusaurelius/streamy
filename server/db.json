@@ -1,18 +1,21 @@
 {
   "streams": [
     {
-      "title": "My Stream",
-      "description": "This is a great stream",
+      "title": "First Stream",
+      "description": "This is my first stream with a working prototype!",
+      "userId": "104092704744449751068",
       "id": 1
     },
     {
-      "title": "My 2nd Stream",
-      "description": "This is a great stream too",
+      "title": "Second stream",
+      "description": "I am writing now my second stream description. ",
+      "userId": "104092704744449751068",
       "id": 2
     },
     {
-      "title": "Yo ",
-      "description": "YO ",
+      "title": "Third Stream",
+      "description": "I am now creating my third stream for everyone to see!",
+      "userId": "104092704744449751068",
       "id": 3
     }
   ]

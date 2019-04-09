@@ -49,9 +49,14 @@ class GoogleAuth extends React.Component {
             return (
                 <div>
                     <img className="ui avatar image" alt="User" src={this.auth.currentUser.Ab.w3.Paa} />
-                    <button onClick={this.onSignOutClick} className="mini circular ui red button">
-                        <i className="google icon"/>
-                        Out
+                    <button onClick={this.onSignOutClick} className="mini circular ui animated red button google" tabindex="0">
+                        <div className="visible content">
+                            <i className="google icon" />
+                            <i className="right arrow icon"></i>
+                        </div>
+                        <div className="hidden content">
+                            Sign Out
+                        </div>
                     </button>
                 </div>
             );
@@ -59,9 +64,14 @@ class GoogleAuth extends React.Component {
             return (
                 <div>
                     <img className="ui avatar image" alt="User" src={Image} />
-                    <button onClick={this.onSignInClick} className="mini ui circular red basic google button">
-                        <i className="google icon" />
-                        In
+                    <button onClick={this.onSignInClick} className="mini ui circular animated inverted red button">
+                        <div className="visible content">
+                            <i className="google icon" />
+                            <i className="left arrow icon"></i>
+                        </div>
+                        <div className="hidden content">
+                            Sign In
+                        </div>
                     </button>
                 </div>
             );    

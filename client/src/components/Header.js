@@ -5,14 +5,11 @@ import '../assets/styles/styles.css';
 
 const Header = () => {
     return (
-        <div className="ui secondary pointing menu" id="menu">
+        <div className="ui block red header pointing menu" id="menu">
             <Link to="/" className="item">
                 Streamy
             </Link>
             <div className="right menu">
-                <Link to="/" className="item">
-                    All Streams
-                </Link>
                 <GoogleAuth />
             </div>
         </div>

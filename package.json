@@ -4,13 +4,24 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
+    "start:prod": "node server.js",
+    "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
+    "client": "cd client && npm run start",
+    "seed": "node scripts/seedDB.js",
+    "install": "cd client && npm install",
+    "build": "cd client && npm run build",
+    "test": "cd client && npm run test",
+    "heroku-postbuild": "npm run build"
+  },
+  "resolutions": {
+    "terser": "3.14.1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/themarcusaurelius/streamy.git"
   },
-  "author": "",
+  "author": "Marcus Aurelius",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/themarcusaurelius/streamy/issues"

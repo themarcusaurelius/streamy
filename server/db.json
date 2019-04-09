@@ -14,29 +14,6 @@
       "title": "Yo ",
       "description": "YO ",
       "id": 3
-    },
-    {
-      "title": "Unexpected Behavior",
-      "description": "Didn't expect that!",
-      "userId": "104092704744449751068",
-      "id": 5
-    },
-    {
-      "title": "Programmatic Navigation",
-      "description": "You should not see the on the form page!",
-      "userId": "104092704744449751068",
-      "id": 6
-    },
-    {
-      "title": "Test",
-      "description": "Testing the refactoring ",
-      "userId": "104092704744449751068",
-      "id": 7
-    },
-    {
-      "title": "Me Streaming Component Reuse",
-      "description": "This stream is about refactoring",
-      "id": 8
     }
   ]
 }
